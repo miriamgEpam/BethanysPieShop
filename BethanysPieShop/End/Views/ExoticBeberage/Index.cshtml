@@ -1,0 +1,123 @@
+﻿@model ExoticBeberage
+
+<form asp-action="saveExoticBeberage" asp-controller="ExoticBeberage" method="post" class="form-horizontal" role="form">
+    <hr />
+    <li><a asp-controller="ExoticBeberage" asp-action="getAllExoticBeberages">Exotic Beberage</a></li>
+
+    <hr />
+    <div class="form-group">
+        <label asp-for="Description" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Description" class="form-control" />
+
+        </div>
+    </div>
+    <hr />
+
+    <h5>Ingredientes</h5>
+    <div class="form-group">
+        <label asp-for="Ingrediente1" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Ingrediente1" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ingrediente2" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Ingrediente2" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ingrediente3" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Ingrediente3" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ingrediente4" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Ingrediente4" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Ingrediente5" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Ingrediente5" class="form-control" />
+        </div>
+    </div>
+    <hr />
+
+
+    <h5>Steps preparations</h5>
+    <div class="form-group">
+        <label asp-for="Step1" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Step1" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Step2" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Step2" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Step3" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Step3" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Step4" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Step4" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Step5" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Step5" class="form-control" />
+        </div>
+    </div>
+    <hr />
+    <h5>Mas informacion</h5>
+    <div class="form-group">
+        <label asp-for="Costo" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Costo" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PiezasPorPaquetes" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="PiezasPorPaquetes" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Paquetes" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="Paquetes" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Disponible" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input type="checkbox" asp-for="Disponible" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-5">
+            <input type="submit" class="btn btn-primary" value="Save info" />
+        </div>
+    </div>
+
+    <>
+
+</form>
